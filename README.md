@@ -2,6 +2,9 @@
 
 **Omarchy** is hardcoded to use `swaybg`, which is a static wallpaper setter. This project intercepts Omarchy's calls to `swaybg` and redirects them to a modern pipeline using **swww** (for transitions) and **matugen** (for Material You color generation).
 
+## 📺 Demo
+Check out `demo.mp4` in this repository to see the smooth transitions and real-time color shifting in action.
+
 ## 🚀 How it Works
 
 This setup uses a "Binary Shim" strategy. By placing a custom script named `swaybg` in `~/.local/bin`, we trick Omarchy into running our logic instead of the real `swaybg` binary.
@@ -73,10 +76,14 @@ Ensure you check your `~/.config/matugen/config.toml` and comment out or remove 
 # Example: Comment out hooks for services you don't use
 # post_hook = "pkill -USR1 cava" 
 # post_hook = "waybar-signal 1"
+```
 
 ## 🔧 Automation
 
-Add these lines to your `hyprland.conf` to start the daemon and the sync-watcher on login:
+```bash
+nvim ~/.config/hypr/autostart.conf
+```
+Add these lines to your `autostart.conf` to start the daemon and the sync-watcher on login:
 
 ```bash
 exec-once = swww-daemon
