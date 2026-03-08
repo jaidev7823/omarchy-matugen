@@ -3,7 +3,13 @@
 **Omarchy** is hardcoded to use `swaybg`, which is a static wallpaper setter. This project intercepts Omarchy's calls to `swaybg` and redirects them to a modern pipeline using **swww** (for transitions) and **matugen** (for Material You color generation).
 
 ## 📺 Demo
-Check out `demo.mp4` in this repository to see the smooth transitions and real-time color shifting in action.
+
+Watch the smooth transitions and real-time color shifting in action:
+
+<video width="100%" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser doesn't support embedded videos. <a href="video.mp4">Click here to watch the demo</a>
+</video>
 
 ## 🚀 How it Works
 
