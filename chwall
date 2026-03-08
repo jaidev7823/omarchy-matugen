@@ -1,0 +1,13 @@
+#!/bin/bash
+# Usage: chwall ~/Pictures/wallpapers/image.png
+
+# 1. Change the wallpaper with a nice transition
+swww img "$1" --transition-type wipe --transition-step 90
+
+# 2. Run matugen to generate new colors
+# -i specifies the image, -t generates the theme
+matugen image "$1"
+
+# 3. (Optional) Reload apps that don't auto-update
+# Example: pywal/matugen might need a signal to refresh waybar or kitty
+# waybar-signal 1

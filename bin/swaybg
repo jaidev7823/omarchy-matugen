@@ -1,0 +1,5 @@
+#!/bin/bash
+# Omarchy calls: swaybg -i /path/to/image -m fill
+# We just want the path, which is usually the 2nd argument
+
+~/.local/bin/omarchy-sync
