@@ -6,10 +6,8 @@
 
 Watch the smooth transitions and real-time color shifting in action:
 
-<video width="100%" controls>
-  <source src="video.mp4" type="video/mp4">
-  Your browser doesn't support embedded videos. <a href="video.mp4">Click here to watch the demo</a>
-</video>
+[![Watch the demo](https://img.shields.io/badge/Demo-Video-blue?style=for-the-badge)](../../releases/download/demo/video.mp4)
+
 
 ## 🚀 How it Works
 
