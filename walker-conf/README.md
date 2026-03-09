@@ -7,11 +7,11 @@ This project includes multiple **Walker** launcher configurations for different 
 
 ### 📦 Included Walker Configs
 
-| Config | Location | Purpose |
-|--------|----------|---------|
-| **Default Walker** | `walker/config.toml` | Standard Walker launcher with desktop apps, web search, files, and calculator |
-| **Omarchy Default Theme** | `omarchy-default-walker/walker/` | System service configuration for Omarchy integration |
-| **Amekoji Theme** | `theme-walker-css/walker.css` | Stylish Amekoji-themed CSS for Walker UI |
+| Config | Repository | System Path | Purpose |
+|--------|-----------|-------------|---------|
+| **Default Walker** | `walker/config.toml` | `~/.config/walker/config.toml` | Standard Walker launcher with desktop apps, web search, files, and calculator |
+| **Omarchy Default Theme** | `omarchy-default-walker/walker/` | `~/.local/share/omarchy/default/walker/themes/` | System service configuration for Omarchy integration |
+| **Walker CSS Theme** | `theme-walker-css/walker.css` | `~/.config/omarchy/current/theme/walker.css` | Stylish CSS theme for Walker UI |
 
 ### ⚙️ Setup
 
@@ -33,14 +33,23 @@ This project includes multiple **Walker** launcher configurations for different 
    https://github.com/atif-1402/omarchy-amekoji-theme.git
    ```
 
-#### Theme Files
+#### Theme Files & Deployment
 
-**Omarchy Default Style** (`omarchy-default-walker/walker/themes/omarchy-default/style.css`)
+**Default Walker Config**
+- Repository: `walker/config.toml`
+- Deploys to: `~/.config/walker/config.toml`
+- Standard configuration for Walker launcher
+
+**Omarchy Default Style** 
+- Repository: `omarchy-default-walker/walker/themes/omarchy-default/style.css`
+- Deploys to: `~/.local/share/omarchy/default/walker/themes/`
 - Material Design inspired styling
 - Smooth transitions and hover effects
 - Integrates with matugen color palette
 
-**Amekoji Theme** (`theme-walker-css/walker.css`)
+**Walker CSS Theme**
+- Repository: `theme-walker-css/walker.css`
+- Deploys to: `~/.config/omarchy/current/theme/walker.css`
 - Custom dark theme colors
 - Enhanced borders and backgrounds
 - Professional, minimalist design
