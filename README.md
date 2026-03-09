@@ -6,8 +6,7 @@
 
 Watch the smooth transitions and real-time color shifting in action:
 
-[![Watch the demo](https://img.shields.io/badge/Demo-Video-blue?style=for-the-badge)](video.mp4)
-
+[![Watch the Demo](https://img.youtube.com/vi/czyx66GCLYA/maxresdefault.jpg)](https://www.youtube.com/watch?v=czyx66GCLYA)
 
 ## 🚀 How it Works
 
